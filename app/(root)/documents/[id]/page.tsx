@@ -1,9 +1,11 @@
-import React from 'react'
+import CollabrativeRoom from "@/components/CollabrativeRoom";
 
 const Document = () => {
   return (
-    <div>Document</div>
-  )
+      <main className="flex w-full flex-col items-center">
+        <CollabrativeRoom/>
+      </main>
+  );
 }
 
 export default Document
